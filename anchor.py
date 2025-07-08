@@ -53,9 +53,9 @@ def sendDataAndReadResponse(cmd, timeout: int = 2, debug = True) -> Union[str,No
 def config_cmd():
     """
     AT+SETCFG=(x1),(x2),(x3),(x4)
-    x1:Device ID(Anchor 0-7，Tag 0-63)
+    x1:Device ID(Anchor 0-7,Tag 0-63)
     x2:Device Role(0:Tag / 1:Anchor)
-    x3:Equipment communication rate(0:850K/1:6.8M，Default:6.8M)
+    x3:Equipment communication rate(0:850K/1:6.8M,Default:6.8M)
     x4:Range filtering is enabled(0:Close / 1:Open)
     """
     return f"AT+SETCFG={UWB_INDEX},0,1,1"
