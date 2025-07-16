@@ -24,14 +24,12 @@ NUM_ITERARIONS = const(100) # Number of iterations to try different timing setti
 NUM_CANDIDATES = const(100) # Number of candidates to generate for each iterations
 NUM_MEASUREMENTS = const(1000) # Number of measurements of range to take when evaluating the candidate
 
+# This array keeps track of the distances of each anchor to each tag
 EDM_actual = np.ndarray([
-    [0,1,2,3,4,5,6], #0
-    [0,1,2,3,4,5,6], #1
-    [0,1,2,3,4,5,6], #2
-    [0,1,2,3,4,5,6], #3
-    [0,1,2,3,4,5,6], #4
-    [0,1,2,3,4,5,6], #5
-    [0,1,2,3,4,5,6], #6
+    [0,1,2], # Anchor 0 values
+    [0,1,2], # Anchor 1 values
+    [0,1,2], # Anchor 2 values
+    [0,1,2], # Anchor 3 Values
 ])
 
 EDM_measured = EDM_actual.copy()
