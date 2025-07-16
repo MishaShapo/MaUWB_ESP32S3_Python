@@ -13,3 +13,9 @@
 - Played around a little with Web Workflow since it will be very helpful to updating code on 4 anchors without need to connec to USB
 - ESP uses 2.4 Gz wifi tho so will need to mess with Wifi settings to get ESP and laptop on the same network
 - Could also try the Bluetooth Workflow instead but IDK if that will force me to connect 1 ESP at a time. Would love to be able to open 4 tabs and connect to all 4 at once
+
+### 2025-07-15 2
+- Soldered ST Link pins for 5 remaining boards
+- Upgraded MaUWB firmware on 5 boards
+- Soldered another NodeMCU ESP32S3
+- Re-soldered motoron motor controller to test later
