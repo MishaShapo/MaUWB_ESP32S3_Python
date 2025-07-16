@@ -19,3 +19,6 @@
 - Upgraded MaUWB firmware on 5 boards
 - Soldered another NodeMCU ESP32S3
 - Re-soldered motoron motor controller to test later
+- Read about this REALLY cool IOT management software called "ThingsBoard" and this project for OTA updates for the ESP with it:
+https://github.com/roehann/cota
+
